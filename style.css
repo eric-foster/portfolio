@@ -9,14 +9,10 @@ html {
     scroll-behavior: smooth;
 }
 
-/* body{
-    max-width: 2000px;
-    margin: auto;
-} */
-
 .container {
     max-width: 1200px;
-    margin: 0 auto
+    margin: 0 auto;
+    display: block;
 }
 
 /* NavBar */
@@ -26,7 +22,7 @@ nav .container {
     padding: 5px;
     padding-left: 0;
     /* height: 8vh; */
-    justify-content: space-evenly;
+    justify-content: space-between;
     background-color: rgb(255, 255, 255);
     /* position: fixed;
     top: 0;
@@ -80,7 +76,7 @@ nav .container .right-navbar li a:hover {
 .toggle-button {
     position: absolute;
     top: 1rem;
-    right: 3rem;
+    right: 2rem;
     display: none;
     flex-direction: column;
     justify-content: space-between;
@@ -221,8 +217,8 @@ nav .container .right-navbar li a:hover {
 
 .projects .container .portfolio-body {
     display: grid;
-    gap: 20px;
-    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+    gap: 10px;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
     padding: 5px;
 }
 .card {
@@ -480,7 +476,9 @@ button[type="submit"]:hover {
     .contact-me .container{
         margin-left: 30px;
     }
+
+
     /* Contact Section */
-    
+
     /* Footer Section  */
 }
