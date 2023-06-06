@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eric Foster | Developer</title>
+    
+    <meta name="keywords" content="front end developer, Eric Foster, html css javascript" />
+    <meta name="description" content="A computer science and software engineering student and front-end developer providing the skills you need to create extraordinary things and make your visions come true." />
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=PT+Sans">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=DM+Serif+Display">
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
+
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script>
+        (function(){
+            emailjs.init("IzCrDALu1oQxWOQAh");
+        })();
+    </script>
+
+</head>
+<body>
+    <div id="top"></div>
+
+    <!-- Navbar Section "Done" -->
+    <div id="home"></div>
+    <nav class="nav">
+        <div class="container">
+            <div class="left-navbar">
+                <!-- <img src="https://avatars.githubusercontent.com/u/109866223?v=4" alt=""> -->
+                <a href="#">Eric Foster</a>
+            </div>
+            <a href="#" class="toggle-button">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </a>
+            <ul class="right-navbar navbar-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#Portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main>
+        <!-- Header Section "Done" -->
+        <section class="header">
+            <div class="container">
+                <span id="greetings"> MEET ERIC FOSTER</span>
+                <h1 id="introduction">
+                    A <span>Front-End</span> Web Developer taking <span>technology</span> and creative <span>thinking</span> to an elevated level to bring <span>your vision</span> to life on the web.
+                </h1>
+                <div id="info">
+                    <a href="#Portfolio" id="projects-link">Portfolio</a>
+                    <a href="#contact" id="contact-link">Contact</a>
+                </div>
+            </div>
+        </section>
+        <!-- Projects Section "Done" -->
+        <div id="Portfolio"></div>
+        <section class="projects">
+            <div class="container">
+                <div class="portfolio-header">
+                    <h1 class="portfolio-name">PORTFOLIO</h1>
+                    <div class="line-break"></div>
+                </div>
+                <div class="portfolio-body">
+                    <!-- <div class="card">
+                        <img src="Assets/mock.png" alt="">
+                    </div> -->
+                    <div class="card">
+                        <img src="Assets/mock.png" alt="Avatar" style="width:100%">
+                        <div class="container">
+                            <h4><b>Project 1</b></h4>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque temporibus adipisci aliquid cumque quibusdam! Perferendis assumenda eos eius error impedit, ut magni eaque ex cumque, laborum molestias incidunt molestiae atque!</p>
+                        </div>
+                        <div class="card-links">
+                            <a href="#">Source Code</a>
+                            <a href="#">Demo</a>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="Assets/mock.png" alt="Avatar" style="width:100%">
+                        <div class="container">
+                            <h4><b>Project 2</b></h4>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque temporibus adipisci aliquid cumque quibusdam! Perferendis assumenda eos eius error impedit, ut magni eaque ex cumque, laborum molestias incidunt molestiae atque!</p>
+                        </div>
+                        <div class="card-links">
+                            <a href="#">Source Code</a>
+                            <a href="#">Demo</a>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="Assets/mock.png" alt="Avatar" style="width:100%">
+                        <div class="container">
+                            <h4><b>Project 3</b></h4>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque temporibus adipisci aliquid cumque quibusdam! Perferendis assumenda eos eius error impedit, ut magni eaque ex cumque, laborum molestias incidunt molestiae atque!</p>
+                        </div>
+                        <div class="card-links">
+                            <a href="#">Source Code</a>
+                            <a href="#">Demo</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Contact Section "Done" -->
+        <div id="contact"></div>
+        <section class="contact-me">
+            <div class="container">
+                <div class="contact-header">
+                    <h2>Contact Me</h2>
+                    <div class="line-break"></div>
+                </div>
+                <form onsubmit="sendMail(); reset(); return false;">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" required></textarea>
+                
+                    <button type="submit">Submit</button>
+                </form>
+            </div>
+        </section>
+        <!-- Footer Section "Done" -->
+        <section class="footer">
+            <div class="container">
+                <ul class="bottom-navbar navbar-links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#Portfolio">Portfolio</a></li>
+                </ul>
+                <div class="line-break-footer"></div>
+                <div class="social-links">
+                    <a href="https://github.com/eric-foster"><img src="https://d33wubrfki0l68.cloudfront.net/5557d5a11584d7201a38ee1a95200f57a4cc0f88/15085/assets/png/github-ico.png" alt=""></a>
+                    <a href="https://www.linkedin.com/in/eric-f-87a366114/"><img src="https://d33wubrfki0l68.cloudfront.net/7f29579dde49e02480372aa49f7189c5536b0118/34b92/assets/png/linkedin-ico.png" alt=""></a>
+                </div>
+                <div class="made-by">
+                    <p>Made By Eric Foster @2023</p>
+                </div>
+            </div>
+        </section>
+    </main>
+    <script src="index.js"></script>
+</body>
+</html>
