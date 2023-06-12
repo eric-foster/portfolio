@@ -311,7 +311,7 @@ textarea {
     margin-bottom: 20px;
     border-radius: 5px;
     border: 1px solid black;
-    width: 85%;
+    width: 95%;
 }
 
 textarea {
@@ -481,6 +481,10 @@ button[type="submit"]:hover {
     }
 
     /* Contact Section */
-
+    .contact-me .container form input[type="text"],
+    .contact-me .container form input[type="email"],
+    textarea {
+        width: 90%;
+    }
     /* Footer Section  */
 }
