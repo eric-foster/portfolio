@@ -11,6 +11,7 @@ document.querySelectorAll(".right-navbar").forEach(n => n.addEventListener("clic
     toggleButton.classList.remove('active');
     navbarLinks.classList.remove('active');
 }))
+
 // Contact Form
 
 function sendMail() {
