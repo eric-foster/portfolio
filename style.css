@@ -396,6 +396,12 @@ button[type="submit"]:hover {
 }
 
 /* Next Feature: Media Queries "For Responsiveness" */
+@media (max-width: 929px) {
+    .card .container p{
+        height: auto;
+        overflow-y: visible;
+    }
+}
 
 @media (max-width: 1200px) {
     /* Global */
